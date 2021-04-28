@@ -1,6 +1,6 @@
 all:
-	gcc server.c -o server
-	gcc client.c -o client
+	gcc server.c -w -o server
+	gcc client.c -w -o client
 
 clean:
 	rm -f server
